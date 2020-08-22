@@ -1,0 +1,16 @@
+/*上右下左の時計回りで指定する*/
+h1{
+    padding: 10px 15px 15px 20px;
+}
+
+/*
+background-color: red;
+background-image: url(bg-graphic.png);
+background-position: 10px 10px;
+background-repeat: repeat-x;
+background-scroll: fixed;
+と同じように指定する
+*/
+body{
+    background: red url(bg-graphic.jpeg) 10px 10px repeat-y fixed;
+}

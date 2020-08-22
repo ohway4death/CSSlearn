@@ -1,0 +1,19 @@
+/*要素指定*/
+h1{color: red;}
+/*未訪問のリンク*/
+a:link{color: blue;}
+/*クラス名をつけた要素*/
+.manythings{color: green;}
+/*ID名をつけた要素*/
+#onething{color: yellow;}
+/*全ての要素*/
+*{color: purple;}
+/*クラス名をつけた要素内の子要素
+box内のspan要素*/ 
+.box span{color:skyblue;}
+/*クラス名をつけた要素内の最初の子要素
+boxクラス内に出てくる最初のp要素*/
+.box p:first-child{color: gray;}
+/*複数のセレクタ
+h1要素とh2要素とintroクラス*/
+h1, h2, .intro{color: hotpink;}

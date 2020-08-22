@@ -1,0 +1,11 @@
+body{
+    background-color: pink;
+}
+
+/*ブラウザの表示幅が50emより広い場合，背景色は青色になる*/
+@media (min-width: 50em) {
+    body{
+        background-color: blue;
+    }
+}
+
